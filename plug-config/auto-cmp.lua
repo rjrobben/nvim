@@ -13,6 +13,11 @@ cmp.setup({
       vim.fn["UltiSnips#Anon"](args.body)
     end,
   },
+  window = {
+	  completion = cmp.config.window.bordered(),
+	  documentation = cmp.config.window.bordered(),
+	},
+--[[
   formatting = {
     format = function(entry, vim_item)
       -- Kind icons
@@ -33,6 +38,7 @@ cmp.setup({
       return vim_item
     end,
   },
+--]]
   mapping = {
     ['<tab>'] = cmp.mapping(cmp.mapping.select_next_item(), { 'i', 'c' }),
     ['<s-tab>'] = cmp.mapping(cmp.mapping.select_prev_item(), { 'i', 'c' }),
