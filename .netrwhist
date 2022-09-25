@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/rjrobben/.local/share/nvim/plugged/markdown-preview.nvim/plugin'
+let g:netrw_dirhist_6='/home/rjrobben/.local/share/nvim/plugged/markdown-preview.nvim'
+let g:netrw_dirhist_5='/home/rjrobben/.local/share/nvim/plugged/markdown-preview.nvim/plugin'
+let g:netrw_dirhist_4='/home/rjrobben/.local/share/nvim/plugged/markdown-preview.nvim'
+let g:netrw_dirhist_3='/home/rjrobben/.config/nvim'
+let g:netrw_dirhist_2='/home/rjrobben/.config'
+let g:netrw_dirhist_1='/home/rjrobben'
+let g:netrw_dirhist_0='/home/rjrobben/.local'
+let g:netrw_dirhist_9='/home/rjrobben'
+let g:netrw_dirhist_8='/home/rjrobben/.local/share/nvim/plugged/fzf.vim/plugin'
