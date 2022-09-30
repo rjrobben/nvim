@@ -118,12 +118,15 @@ require("mason").setup()
 
 -- pop up menu
 
+--[[
 vim.cmd[[
     highlight Pmenu ctermbg=white guibg=white
     highlight PmenuSel ctermbg=gray guibg=gray
     highlight PmenuSbar ctermbg=white guibg=white
     highlight PmenuThumb ctermbg=black guibg=black
 ]]
+--]]
+
 -- airline
 vim.g['airline_theme'] = 'base16'
 vim.g['airline_section_b'] = ''
