@@ -4,9 +4,9 @@ runtime! plug-config/diagnostics.lua
 runtime! plug-config/auto-cmp.lua
 ]]
 vim.cmd [[
-let g:UltiSnipsExpandTrigger="<space>"
-let g:UltiSnipsJumpForwardTrigger="<space>"
-let g:UltiSnipsJumpBackwardTrigger="<s-space>"
+let g:UltiSnipsExpandTrigger="<enter>"
+let g:UltiSnipsJumpForwardTrigger="<enter>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 ]]
 
 vim.cmd [[
